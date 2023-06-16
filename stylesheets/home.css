@@ -17,3 +17,9 @@
 .nav-item {
    padding-right: 15px;
 }
+.navbar-toggler {
+    padding-left: 0%;
+    padding: 0;
+    border: none;
+    background: none;
+}
