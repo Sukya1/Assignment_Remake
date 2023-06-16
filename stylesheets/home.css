@@ -1,7 +1,18 @@
+#moveStrategy {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top:0%;
+    padding-top: 0%;
+}
 .navbar-brand-img {
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 0%;
 }
 .navbar-brand {
+    padding-bottom: 0%;
     font-family: Big River Regular;
+}
+.navbar-nav li, .navbar-nav {
+    float: left;
 }
