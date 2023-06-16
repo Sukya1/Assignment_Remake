@@ -1,5 +1,5 @@
 # Group TO DO's 
-1. Make the page Header
+1. Make the page Header (progress on the header can be found in the hireTalent file)
 Bugs:
     1.hover effect causes flickering 
     2.post hoving effect shows a blue rectangle before returning to normal
