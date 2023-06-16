@@ -4,6 +4,6 @@
 
 # Resourses 
 1. List of several Bootstrap 5 classes: https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp
-2. More in deepth bootstrap documentation: https://getbootstrap.com/docs/3.4/components/#navbar
+2. More in-depth bootstrap documentation: https://getbootstrap.com/docs/3.4/components/#navbar
 
-## Please push and pull as frequently as passible so we can see each others progress and help one another if possible
+## Please push and pull as frequently as possible so we can see each other's progress and help one another if possible
