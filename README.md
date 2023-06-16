@@ -1,5 +1,10 @@
 # Group TO DO's 
 1. Make the page Header
+Bugs:
+    1.hover effect causes flickering 
+    2.post hoving effect shows a blue rectangle before returning to normal
+    3. contents of the drop box have not yet been modified
+    4. hover effect causes icon to move right
 2. Make the Page Footer
 
 # Resourses 
