@@ -5,14 +5,15 @@
     padding-top: 0%;
 }
 .navbar-brand-img {
-    width: 30px;
-    height: 30px;
-    padding-bottom: 0%;
+    width: 100%;
+    height: 80px;
 }
 .navbar-brand {
-    padding-bottom: 0%;
+    line-height: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-family: Big River Regular;
 }
-.navbar-nav li, .navbar-nav {
-    float: left;
+.nav-item {
+   padding-right: 15px;
 }
