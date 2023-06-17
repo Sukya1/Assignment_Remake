@@ -10,22 +10,24 @@
 }
 
 .nav-item a {
-   padding-right: 50px;
+   padding-right: 10px;
+   padding-left: 10px;
    font-family: Big River Regular;
    font-size: large;
    color: rgb(14, 11, 75);
    background-color: white;
    border: none;
    transition: none;
+   margin-right: 20px;
 }
 
 .nav-item a:hover {
-    border: solid 2px transparent;
+    border: solid 1px transparent;
     font-family: Big River Regular;
     color: rgb(255, 255, 255);
-    background-color: rgba(17, 61, 220, 0.81);
-    border-radius: 12px;
-    padding: 5px;
+    background-color: rgb(0, 50, 232);
+    border-radius: 15px;
+
  }
 .navbar-toggler {
     padding: 0;
