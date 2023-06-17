@@ -3,7 +3,7 @@
 Bugs:
     1. hover effect causes flickering (fixed by adding transition of 0s/none)
     2. post hoving effect shows a blue rectangle before returning to normal (fixed by adding transition of 0s/none)
-    3. contents of the drop box have not yet been modified (done using span elements and svg image that foats right)
+    3. contents of the drop box have not yet been modified (done using span elements and svg image that foats right https://icons.getbootstrap.com/icons/arrow-up-right/)
     4. hover effect causes the icon to move right (fixed by removing padding from the hover effect/style the margin instead)
     5. dropbox icon should be 2 lines instead of three (fixed by removing the navbar-toggler-icon class and replacing it with an appropriate image file found on the internet); cite used: https://icons8.com/icons/set/two-lines
     6. hover effect caused other elements beside it to move (fixed by adding a box-shadow instead of a border: https://stackoverflow.com/questions/36080415/css-hover-makes-other-elements-move)
