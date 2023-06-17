@@ -15,10 +15,12 @@
    font-size: large;
    color: rgb(14, 11, 75);
    background-color: white;
-   border: solid 2px transparent;
+   border: none;
+   transition: none;
 }
 
 .nav-item a:hover {
+    border: solid 2px transparent;
     font-family: Big River Regular;
     color: rgb(255, 255, 255);
     background-color: rgba(17, 61, 220, 0.81);

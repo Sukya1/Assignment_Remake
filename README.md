@@ -2,11 +2,14 @@
 1. Make the page Header (progress on the header can be found in the hire talent file)
 Bugs:
     1. hover effect causes flickering 
-    2. post hoving effect shows a blue rectangle before returning to normal
+    2. post hoving effect shows a blue rectangle before returning to normal (fixed by adding transition of 0s)
     3. contents of the drop box have not yet been modified
     4. hover effect causes the icon to move right
 2. Make the Page Footer
 
+# Common Errors and fixes 
+    1. 
+    
 # Resourses 
 1. List of several Bootstrap 5 classes: https://www.w3schools.com/bootstrap/bootstrap_ref_all_classes.asp
 2. Another Bootstrap Classes Link: https://bootstrapshuffle.com/classes
