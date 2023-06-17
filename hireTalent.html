@@ -9,7 +9,7 @@
         />
         <title>Hire Talent|Tech Talent & Strategy</title>
     
-        <link rel="stylesheet" href="/stylesheets/home.css" />
+        <link rel="stylesheet" href="/stylesheets/hireTalent.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
 <body> 
@@ -20,52 +20,67 @@
                 width="30" height="24" class="d-inline-block align-text-top"></a>
               <!-- Sidebar Elements  -->
                 <ul class="nav navbar-nav navbar-right list-group-horizontal">
-                  <li class="nav-item">
+                  <li class="nav-item hover">
                     <a class="nav-link" href="#">Hire Talent</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item hover">
                     <a class="nav-link" href="#">Get Hired</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item hover">
                     <a class="nav-link" href="#">Partnerships</a>
                   </li>
                
               <!-- Dropdown  Icon-->
-              <li><button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-              <img width="52" height="32" src="https://img.icons8.com/windows/32/000000/grip-lines.png" alt="grip-lines"/>
+              <li><button class="navbar-toggler btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <img width="52" height="52" src="https://img.icons8.com/windows/32/000000/grip-lines.png" alt="grip-lines"/>
               </button></li>
               </ul>
+              <!-- Inside the Dropdown -->
               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <div class="offcanvas-header justify-content-end">
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                    <li class="nav-item dropdownfont">
+                        <a class="nav-link" href="#"> About Us 
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="46" height="20" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                          </svg></a></span>
+                        <hr>
+                      </li>
+                    <li class="nav-item dropdownfont">
+                      <a class="nav-link" href="#">Careers 
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="46" height="20" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                        </svg></a></span>
                       </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
+                      <hr>
                     </li>
-                  </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
+                    <li class="nav-item dropdownfont">
+                        <a class="nav-link" href="#">Blog
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="46" height="20" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg></a></span>
+                        </a>
+                        <hr>
+                    </li>
+                    <li class="nav-item dropdownfont">
+                        <a class="nav-link" href="#">Swag Store
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="46" height="20" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg></a></span>
+                        </a>
+                        <hr>
+                    </li>
+                    <li class="nav-item dropdownfont">
+                        <a class="nav-link" href="#">Contact Us
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="46" height="20" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                            </svg></a></span>
+                        </a>
+                        <hr>
+                    </li>
                 </div>
               </div>
             </div>
