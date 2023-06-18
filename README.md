@@ -15,6 +15,9 @@ Bugs:
 # Common Errors and fixes 
     1. add justify-content-end to the class to move things to the complete right of the screen
     2. <hr> is used for underlines 
+    3. vw is for view width so it fits every screen
+    4. Use z-index when layering items so the program know which element to prioritize or how to layer them atop each other
+    5. if background-color causes white overlay when layering (especially when layering on header icons eg.toggler), change the cackground color to transparent
     
 # Contributions (I may have messed this up fixed if i matched you to the wrong file)
     1. Get Hired Page - Mozen 
@@ -28,5 +31,6 @@ Bugs:
 2. Another Bootstrap Classes Link: https://bootstrapshuffle.com/classes
 3. More in-depth bootstrap documentation: https://getbootstrap.com/docs/3.4/components/#navbar
 4. Inspiration on home to get slanted background separators: https://www.youtube.com/watch?v=uPiDzFBhvqk
+5. Inspiration on how to layer images: https://www.w3docs.com/snippets/css/how-to-position-one-image-on-top-of-another-in-html-css.html 
 
 ## Please push and pull as frequently as possible so we can have the most up-to-date version of the files
