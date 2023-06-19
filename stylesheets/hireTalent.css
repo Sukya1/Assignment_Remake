@@ -245,11 +245,11 @@
     margin-bottom: 50px;
 }
 .section3leftalign {
-    padding-top: 140px;
     font-size: 56px;
     color: #011F5C;
     font-family: Big River Regular;
     font-weight: bolder;  
+    padding-left: 10vw;
 }
 #bottomleftseparator {
     width: 0;
@@ -273,7 +273,10 @@
     text-align: right;
     margin-left:40vw;
 }
-
+#separatorimg {
+    padding-left: 10vw;
+    z-index: -1;
+}
 /* Adjustments for smaller screen */
 @media (min-width: 768px) and (max-width: 1200.98px) {
     #headerimg1 {
