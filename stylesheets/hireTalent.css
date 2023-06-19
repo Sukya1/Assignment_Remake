@@ -86,7 +86,7 @@
     font-size: 20px;
     line-height: 40px;
 }
-.section1 button , .section3 #button{
+.section1 button , .section3 #button, .section7 button{
     box-shadow:  0 0 0 1px transparent;
     padding-right: 0px;
     padding-top: 15px;
@@ -97,7 +97,7 @@
     background-color: rgb(0, 50, 232);
     border-radius: 27px;
 }
-.section1 button:hover, .section3 #button:hover {
+.section1 button:hover, .section3 #button:hover, .section7 button:hover {
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 8px 8px 1px 1px rgb(0, 50, 232);
 }
@@ -133,7 +133,7 @@
     position: absolute;
     /* border-right-width, style,color */
     border-left: 39vw solid transparent;
-    border-top: 50vw solid rgb(212, 238, 255);
+    border-top: 50vw solid #CEF1FE;
     /* this causes the slanting  */
     border-right: 30vm solid transparent;
     margin-top: -15.9vw; 
@@ -154,7 +154,7 @@
     width:100%;
     overflow:auto;
 }
-.section3heading {
+.section3heading , .section5header {
     font-size: 56px;
     color: #011F5C;
     font-family: Big River Regular;
@@ -244,12 +244,11 @@
     margin-top: 30px;
     margin-bottom: 50px;
 }
-.section3leftalign {
+.section4leftalign {
     font-size: 56px;
     color: #011F5C;
     font-family: Big River Regular;
     font-weight: bolder;  
-    padding-left: 10vw;
 }
 #bottomleftseparator {
     width: 0;
@@ -277,6 +276,52 @@
     padding-left: 10vw;
     z-index: -1;
 }
+.section5 {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.section5 img {
+    padding-bottom: 20px;
+}
+.section5heading{
+    font-size: 24px;
+    color: #011F5C;
+    font-family: Big River Regular;
+    font-weight: bolder;
+    text-align: center;
+}
+.section5subheading {
+    color:rgb(138, 136, 136);
+    font-size: 15px;
+    line-height: 30px;
+}
+.section6 {
+    padding-top: 40px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-bottom: 50px;
+}
+.section6header {
+    font-size: 35px;
+    color: #011F5C;
+    font-family: Big River Regular;
+    font-weight: bolder;
+    text-align: center;
+}
+.section7 {
+    padding-left: 50px;
+    padding-top: 80px;
+    width:85%;
+    background-color: aquamarine;
+}
+.imageleft {
+    padding-left: 20vw;
+}
+.section7borderimg {
+    padding-left: 20vw;
+}
 /* Adjustments for smaller screen */
 @media (min-width: 768px) and (max-width: 1200.98px) {
     #headerimg1 {
@@ -290,5 +335,11 @@
     }
     .separator {
         margin-left: 122px;
+    }
+    .section7borderimg {
+        padding-left: 10vw;
+    }
+    .imageleft {
+        padding-left: 30vw;
     }
   }
