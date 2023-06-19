@@ -9,6 +9,7 @@
     padding-bottom: 5px;
     font-family: Big River Regular;
 }
+
 /* created new class hover to prevent the hover effect from applying to the dropdown */
 .hover a {
    padding-right: 10px;
@@ -80,7 +81,7 @@
     font-weight: bold;
     line-height: 100px;
 }
-.headingp {
+.headingp, .collapsable1paragraph {
     color:rgb(138, 136, 136);
     font-size: 20px;
     line-height: 40px;
@@ -137,15 +138,101 @@
     border-right: 30vm solid transparent;
     margin-top: -15.9vw; 
     /* current fix to separator not being far right */
-    margin-left: 200px;
+    margin-left: 158px;
 }
 #overlayedimgs {
     float:right;
 }
+#section2header {
+    text-align: center;
+    color: blue;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+#bluesection {
+    background-color: #CEF1FE;
+    /* Current fix for the section not covering the entire page */
+    width:100%;
+    overflow:auto;
+}
+#section3heading {
+    font-size: 56px;
+    color: #011F5C;
+    font-family: Big River Regular;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+#section3subheading {
+    font-size: medium;
+    color: #011F5C;
+    font-family: Big River Regular;
+    font-weight: small;
+    text-align: center;
+    margin-left: 23vw;
+    margin-right: 23vw;
+}
+#leftseparator {
+    width: 0;
+    z-index: -1;
+    height: 0;
+    position: absolute;
+    /* border-right-width, style,color */
+    border-right: 100vw solid transparent;
+    border-bottom: 21vw solid #CEF1FE;
+    margin-top: -12.9vw; 
+}
+#rightseparator {
+    width: 100%;
+    z-index: -1;
+    height: 0;
+    position: absolute;
+    /* border-right-width, style,color */
+    border-left: 100vw solid transparent;
+    border-bottom: 21vw solid #CEF1FE;
+    margin-top: -12.9vw;
+   
+}
+#panel {
+    text-align: center;
+    border:2em ;
+}
+
+#panelelements button {
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 27px;
+    font-size: large;
+    font-weight: bold;
+    /* background-color: white; */
+    color: rgb(8, 1, 124);
+    border: transparent; 
+    
+}
+.card {
+    width: 90%;
+}
+.collapsable1header {
+    color: #011F5C;
+    font-size: x-large;
+    font-weight: bold;
+}
+
 /* Adjustments for smaller screen */
 @media (min-width: 768px) and (max-width: 1200.98px) {
     #headerimg1 {
       width: 500px;
       height: 500px;
+    }
+    .section2 img {
+        width: 85px;
+        padding-right: 10px;
+
+    }
+    .separator {
+        margin-left: 122px;
     }
   }
