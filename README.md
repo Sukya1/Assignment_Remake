@@ -21,7 +21,7 @@ Bugs:
     
 # Contributions (I may have messed this up fix if I matched you to the wrong file)
     1. Get Hired Page - Mozen 
-    2. Hire Talent - Hire Talent 
+    2. Hire Talent - Sukya 
     3. Partnership - Anuj 
     4. Home - Kendall 
     5. About - Zabi
