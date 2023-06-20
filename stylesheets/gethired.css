@@ -60,3 +60,24 @@
 .nav-link span {
     float:right;
 }
+
+footer .col-md-8 {
+    padding-right: 12rem;
+}
+
+footer .col-md-3 {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:lightgrey;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+.footer-list-title {
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace
+}
