@@ -322,6 +322,47 @@
 .section7borderimg {
     padding-left: 20vw;
 }
+.section8 {
+    padding-top: 40px;
+    padding-right: 10vw;
+}
+.section8header {
+    font-size: 24px;
+    color: #011F5C;
+    font-family: Big River Regular;
+    font-weight: bolder;
+    text-align: center;
+}
+.section8subheader {
+    color:rgb(138, 136, 136);
+    font-size: small;
+    text-align: center;
+    line-height: 30px;
+}
+.section8 a {
+    text-decoration: none;
+}
+.section8 a:hover {
+    /* Color not changing here  */
+    color:#011F5C; 
+    text-decoration: underline;
+}
+.section9 {
+    padding-top: 30px;
+}
+.section9 img {
+    float: right;
+}
+.section9 span, .section9 div {
+    float: left;
+    padding-right: 5px;
+}
+.movespanright {
+    padding-left: 8vw;
+}
+.leftside {
+    /* is there a float down */
+}
 /* Adjustments for smaller screen */
 @media (min-width: 768px) and (max-width: 1200.98px) {
     #headerimg1 {
