@@ -116,8 +116,9 @@
 }
 #headerimg2 {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    float:right;
+    bottom: 0;
+    left: 0;
     width: 550px;
     height: 300px;
     padding-right: 20px;
@@ -140,9 +141,9 @@
     /* current fix to separator not being far right */
     margin-left: 158px;
 }
-#overlayedimgs {
+/* #overlayedimgs {
     float:right;
-}
+} */
 #section2header {
     text-align: center;
     color: blue;
@@ -358,7 +359,7 @@
     padding-right: 5px;
 }
 .movespanright {
-    padding-left: 8vw;
+    padding-left: 7vw;
 }
 .leftside {
     /* is there a float down */
