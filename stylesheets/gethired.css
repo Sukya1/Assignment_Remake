@@ -66,15 +66,95 @@
 }
 
 
-.card {
+.header-style {
+    color: navy;
+    font-weight: bolder;
+    padding: 12px;
+}
+
+.emphasis {
+    color:blue;
+}
+
+.body-text {
+    line-height: 2;
+    font-size: 20px;
+}
+
+.btn-primary {
+    border-radius: 30px;
+    background-color:blue;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+.container-fluid {
+    margin-bottom: 3%;
+}
+
+.top-text {
+    padding-left: 4%;
+}
+
+.lg-heading {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 48px;
+    padding: 24px;
+}
+
+@keyframes loop {
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translate(-2560px);
+    }
+  }
+
+#looping-img-container {
+    overflow: hidden;
+}
+
+#looping-img {
+    background: url("../assets/get-hired-group-looping.jpeg") repeat-x;
+    width: 5120px;
+    height: 189px;
+    animation: loop 20s linear infinite;
+}
+
+.card-title, .card-text {
+    text-align: center;
+    margin: 2rem;
     color: white;
 }
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 2;
+}
+
+.btn-light {
+    padding: 30px;
+    font-size: 20px;
+    color: navy;
+}
+
 
 .accordion {
     text-align: left;
 }
 
-
+h6 {
+    color: navy;
+}
 
 
 
@@ -89,15 +169,12 @@ footer .col-md-3 {
     display: flex;
     flex-direction:column;
     align-items:center;
-    background-color:lightgrey;
 }
 
 footer a {
     text-decoration: none;
-    font-family: Verdana;
 }
 
 .footer-list-title {
     font-size: 24px;
-    font-family:'Courier New', Courier, monospace
 }
